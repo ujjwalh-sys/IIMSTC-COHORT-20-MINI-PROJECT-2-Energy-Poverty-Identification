@@ -1,0 +1,19 @@
+DATASET SELECTION DESCRIPTION
+Problem Statement: Cohort 20 – Energy Poverty Identification
+SDG Goal: SDG 1 – No Poverty
+
+The selected dataset was chosen to support the objective of identifying energy poverty among rural households based on living standard surveys and energy usage patterns.
+
+The dataset includes household energy consumption features such as energy consumption (kWh) and peak hour energy usage. These variables help measure the level of electricity access and usage in each household. Low or inconsistent energy consumption may indicate limited access to electricity or financial constraints, which are important indicators of energy poverty.
+
+The dataset also contains demographic information such as household size. Household size is important because larger households with limited energy consumption may experience higher levels of energy scarcity. Including demographic factors helps the model better understand the living conditions of rural households.
+
+In addition, the dataset includes environmental and infrastructure related attributes such as average temperature and the presence of appliances like air conditioners. These variables provide additional context about household living conditions. For example, households in hotter regions without cooling appliances may reflect economic limitations or restricted energy access.
+
+The dataset also includes date-based records, which help analyze energy usage patterns over time. Time-based analysis can help identify irregular energy consumption or unreliable electricity supply.
+
+This dataset is suitable for the problem statement because it contains measurable indicators related to household energy usage, demographic conditions, and living standards. These features allow the development of a machine learning classification model to categorize households into energy secure or energy impoverished groups.
+
+Furthermore, the dataset supports evaluation using confusion matrices. This helps measure how accurately the model identifies truly energy-impoverished households and helps minimize misclassification. The demographic variables can also be used to fine tune weighting factors to better reflect local rural realities.
+
+Therefore, this dataset was selected because it contains relevant variables needed to analyze household energy access and supports the goal of identifying energy poverty in alignment with SDG 1: No Poverty.
